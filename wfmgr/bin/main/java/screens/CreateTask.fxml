@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.screens.CreateTask">
+   <children>
+      <TextField fx:id="taskName" layoutX="151.0" layoutY="68.0" prefHeight="25.0" prefWidth="397.0" />
+      <TextArea fx:id="taskDescription" layoutX="148.0" layoutY="118.0" prefHeight="152.0" prefWidth="397.0" />
+      <Text layoutX="33.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Task Name:" />
+      <TextField fx:id="taskAssignee" layoutX="148.0" layoutY="294.0" prefHeight="25.0" prefWidth="397.0" />
+      <Button layoutX="329.0" layoutY="349.0" mnemonicParsing="false" onAction="#createTask" text="Confirm" />
+      <Label layoutX="33.0" layoutY="118.0" text="Task Description:" />
+      <Text layoutX="33.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assignee:" />
+      <Text layoutX="30.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Task">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="260.0" layoutY="349.0" mnemonicParsing="false" onAction="#goToScreen2" text="Back" />
+      <Label fx:id="duplicateName" layoutX="153.0" layoutY="93.0" text="Task already exists!" visible="false" />
+      <Label fx:id="assignError" layoutX="153.0" layoutY="319.0" text="User does not exist!" visible="false" />
+      <RadioButton fx:id="subt" layoutX="154.0" layoutY="40.0" mnemonicParsing="false" text="Single Subtask" />
+      <RadioButton fx:id="month" layoutX="280.0" layoutY="40.0" mnemonicParsing="false" text="Monthly SubTasks" />
+      <Label layoutX="45.0" layoutY="40.0" prefHeight="17.0" prefWidth="99.0" text="SubTask Options:" />
+      <RadioButton fx:id="trim" layoutX="420.0" layoutY="40.0" mnemonicParsing="false" text="Trimestral SubTasks" />
+      <Label fx:id="errorMessage" layoutX="329.0" layoutY="91.0" prefHeight="17.0" prefWidth="127.0" visible="false" />
+   </children>
+</AnchorPane>

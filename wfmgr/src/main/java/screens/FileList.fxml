@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.screens.FileListController">
+   <children>
+      <Button layoutX="390.0" layoutY="364.0" mnemonicParsing="false" onAction="#goToScreen2" text="Back" />
+      <Button layoutX="18.0" layoutY="364.0" mnemonicParsing="false" onAction="#openFile" text="Open File" />
+      <Button layoutX="92.0" layoutY="364.0" mnemonicParsing="false" onAction="#downloadFile" text="Download File" />
+      <ListView fx:id="fileListView" layoutX="14.0" layoutY="14.0" prefHeight="342.0" prefWidth="416.0" />
+      <Button layoutX="201.0" layoutY="364.0" mnemonicParsing="false" onAction="#refreshFileList" text="Refresh!" />
+      <Button layoutX="272.0" layoutY="364.0" mnemonicParsing="false" onAction="#deleteFile" text="Delete File" />
+   </children>
+</AnchorPane>

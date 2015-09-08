@@ -1,0 +1,1 @@
+powershell "$s=(New-Object -COM WScript.Shell).CreateShortcut('%userprofile%\Desktop\WorkFlow Manager.lnk');$s.WorkingDirectory ='%~dp0\bin';$s.TargetPath='%~dp0\bin\wfmgr.bat';$s.IconLocation ='%~dp0\wfmgr.ico';$s.Save()"
