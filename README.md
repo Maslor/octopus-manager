@@ -18,3 +18,7 @@ Steps:
       1. Go to the folder where you installed octopus-manager and run `shortcut.bat`. This will create a shortcut on the current computer's desktop that connects to the previously installed octopus-manager.
       
 4.  Double click the shortcut to run the program.
+
+## Mac
+
+*Ongoing*
