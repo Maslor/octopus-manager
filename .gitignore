@@ -2,3 +2,7 @@ build/
 wrapper/
 .gradle/
 
+
+*.class
+
+*.class

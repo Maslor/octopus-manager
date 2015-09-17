@@ -2,17 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib"/>
-	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre7/lib/jfxrt.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Downloads/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/jdk-8u51/jre/lib/ext/jfxrt.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4-javadoc.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4-sources.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4-tests.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4-test-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/a51217/Desktop/ExpandableL.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/apache-log4j-2.3-bin/apache-log4j-2.3-bin/log4j-core-2.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/a51217/Downloads/apache-log4j-2.3-bin/apache-log4j-2.3-bin/log4j-api-2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Documents/octopus-manager/octopus-manager/lib/jfxrt.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Downloads/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Downloads/commons-io-2.4/commons-io-2.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Downloads/commons-io-2.4/commons-io-2.4-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Downloads/commons-io-2.4/commons-io-2.4-tests.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Downloads/commons-io-2.4/commons-io-2.4-test-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Downloads/apache-log4j-2.3-bin/log4j-core-2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Maslor/Downloads/apache-log4j-2.3-bin/log4j-api-2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
