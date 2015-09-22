@@ -1,4 +1,4 @@
-# octopus-manager :octopus::necktie:
+# octopus-manager :octopus::necktie: [![Build Status](https://travis-ci.org/Maslor/octopus-manager.svg?branch=master)](https://travis-ci.org/Maslor/octopus-manager)
 Tracks tasks' progression and generates an audit trail of employees' actions. :eyes:
 
 ## Windows 
