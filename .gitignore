@@ -1,5 +1,5 @@
 build/
-wrapper/
+
 .gradle/
 ./bin/
 ../bin/
@@ -7,6 +7,5 @@ wrapper/
 
 *.class
 
-*.class
 
 *.class
