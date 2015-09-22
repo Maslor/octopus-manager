@@ -6,7 +6,7 @@ Tracks tasks' progression and generates an audit trail of employees' actions. :e
 ### SetUp and Run
 Steps:
 
-1.  Clone this project.
+1.  Clone or download this project .
 
 2.  Open the `SetUp` folder.
 
