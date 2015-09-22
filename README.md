@@ -21,4 +21,7 @@ Steps:
 
 ## Mac
 
-*Ongoing*
+*Ongoing - I still have to translate all the .bat windows script to .sh*
+1.  Clone or download this project .
+2.  Copy contents of the `SetUp` folder to the selected shared folder.
+3.  Run the wfmgr.jar on the terminal with the command `java -jar wfmgr.jar`
