@@ -1,8 +1,11 @@
 build/
-wrapper/
+
 .gradle/
+./bin/
+../bin/
 
 
 *.class
+
 
 *.class
